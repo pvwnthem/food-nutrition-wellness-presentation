@@ -30,7 +30,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-500 text-white">
+      <div id="what-is-salmonella" className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-500 text-white">
         <div className="flex w-full h-screen px-18 py-8 space-x-6">
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
@@ -52,8 +52,34 @@ function HomePage() {
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
             <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
 
-            <p className="text-black mt-8">
-              Description of salmonella
+            <p className="text-black mt-8 text-xl">
+            There are several ways in which Salmonella can be contracted:
+            <ul className="list-disc ml-6 mb-2">
+              <li>Through foodborne illness</li>
+              <li>Infected animals</li>
+              <li>Contaminated water sources</li>
+            </ul>
+              Foodborne illness is the most common way that people contract Salmonella. This can happen when food is not cooked to the appropriate temperature or when cross-contamination occurs in the kitchen. Contact with infected animals, such as reptiles and poultry, can also lead to Salmonella infection. Finally, contaminated water sources can also be a source of Salmonella infection.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-600 text-white">
+        <div className="flex flex-row-reverse w-full h-screen px-18 py-8 space-x-6">
+          <img src={SalmonellaImage2} className="rounded-lg"></img>
+          <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Causes of Salmonella</h1>
+            <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
+
+            <p className="text-black mt-8 text-xl">
+            There are several ways in which Salmonella can be contracted:
+            <ul className="list-disc ml-6 mb-2">
+              <li>Through foodborne illness</li>
+              <li>Infected animals</li>
+              <li>Contaminated water sources</li>
+            </ul>
+              Foodborne illness is the most common way that people contract Salmonella. This can happen when food is not cooked to the appropriate temperature or when cross-contamination occurs in the kitchen. Contact with infected animals, such as reptiles and poultry, can also lead to Salmonella infection. Finally, contaminated water sources can also be a source of Salmonella infection.
             </p>
           </div>
         </div>
