@@ -37,8 +37,8 @@ function HomePage() {
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
             <h2 className="flex text-black mt-1"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
 
-            <p className="text-black mt-8">
-              Description of salmonella
+            <p className="text-black mt-8 text-2xl">
+            Salmonella is a type of bacteria that can cause foodborne illnesses in humans. It is commonly found in raw poultry, eggs, and other foods of animal origin. 
             </p>
           </div>
           <img src={SalmonellaImage} className="rounded-lg"></img>
@@ -48,9 +48,9 @@ function HomePage() {
         <div className="flex w-full h-screen px-18 py-8 space-x-6">
           <img src={SalmonellaImage2} className="rounded-lg"></img>
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
-            <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Causes of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
-            <h2 className="flex text-black"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
 
             <p className="text-black mt-8">
               Description of salmonella
