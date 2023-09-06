@@ -51,7 +51,7 @@ function HomePage() {
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">Causes of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
-            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
 
             <p className="text-black mt-8 text-xl">
             There are several ways in which Salmonella can be contracted:
@@ -71,7 +71,7 @@ function HomePage() {
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">Symptoms of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
-            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
 
             <p className="text-black mt-8 text-xl">
             There are several ways in which Salmonella can be contracted:
