@@ -1,5 +1,6 @@
 import SalmonellaImage from "./assets/Salmonella-typhimurium.webp"
 import SalmonellaImage2 from "./assets/Salmonella-typhimurium-Unlike-its-close-relative-Escherichia-coli-Salmonella-enterica.png"
+import SalmonellaImage3 from "./assets/Scanning-electron-micrograph-of-the-Salmonella-used-in-the-inoculation-of-the-broiler.png"
 
 function HomePage() {
   return (
@@ -66,9 +67,9 @@ function HomePage() {
       </div>
       <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-600 text-white">
         <div className="flex flex-row-reverse w-full h-screen px-18 py-8 space-x-6">
-          <img src={SalmonellaImage2} className="rounded-lg"></img>
+          <img src={SalmonellaImage3} className="rounded-lg"></img>
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
-            <h1 className="text-black font-semibold text-4xl mt-2 flex">Causes of Salmonella</h1>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Symptoms of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
             <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p></h2>
 
