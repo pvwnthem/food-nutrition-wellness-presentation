@@ -1,4 +1,5 @@
 import SalmonellaImage from "./assets/Salmonella-typhimurium.webp"
+import SalmonellaImage2 from "./assets/Salmonella-typhimurium-Unlike-its-close-relative-Escherichia-coli-Salmonella-enterica.png"
 
 function HomePage() {
   return (
@@ -35,8 +36,26 @@ function HomePage() {
             <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
             <h2 className="flex text-black"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
+
+            <p className="text-black mt-8">
+              Description of salmonella
+            </p>
           </div>
           <img src={SalmonellaImage} className="rounded-lg"></img>
+        </div>
+      </div>
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-500 to-blue-700 text-white">
+        <div className="flex w-full h-screen px-18 py-8 space-x-6">
+          <img src={SalmonellaImage2} className="rounded-lg"></img>
+          <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
+            <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
+            <h2 className="flex text-black"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
+
+            <p className="text-black mt-8">
+              Description of salmonella
+            </p>
+          </div>
         </div>
       </div>
     </>
