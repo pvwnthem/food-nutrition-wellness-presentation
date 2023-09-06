@@ -1,12 +1,34 @@
-function App() {
+import React from 'react';
 
+function HomePage() {
   return (
-    <>
-      <div className="w-full h-screen flex flex-col items-center justify-center">
-
+    <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-500 to-blue-700 text-white">
+      <div className="text-center">
+        <h1 className="text-6xl font-extrabold mb-4">Salmonella</h1>
+        <p className="text-2xl mb-8">Learn all about Salmonella and how to stay safe.</p>
+        
+        <div className="flex items-center justify-between">
+          <div className="bg-white px-3 py-5 rounded-lg hover:shadow-lg hover:drop-shadow-md transition-transform duration-300 transform scale-95 hover:scale-105">
+            <h2 className="text-3xl text-blue-500 font-semibold mb-4">What is Salmonella?</h2>
+            <p className="text-lg text-gray-800">
+              Salmonella is a type of bacteria that can cause food poisoning. It's important to know how to prevent it and what to do if you get sick.
+            </p>
+          </div>
+          
+          <div className="bg-white px-3 py-5 rounded-lg hover:shadow-lg hover:drop-shadow-md transition-transform duration-300 transform scale-95 hover:scale-105">
+            <h2 className="text-3xl text-blue-500 font-semibold mb-4">Staying Safe</h2>
+            <p className="text-lg text-gray-800">
+            Wash your hands, cook food thoroughly, and avoid cross-contamination to reduce the risk of Salmonella infection.
+            </p>
+          </div>
+        </div>
+        
+        <div className="mt-8">
+          <a href="/learn-more" className="text-lg font-semibold underline">Learn More About Salmonella</a>
+        </div>
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default HomePage;
