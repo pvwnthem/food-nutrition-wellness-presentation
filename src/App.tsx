@@ -35,7 +35,7 @@ function HomePage() {
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
-            <h2 className="flex text-black"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
+            <h2 className="flex text-black mt-1"><p className="text-gray-600">/ˌsalməˈnelə/</p> <p className="text-blue-600 ml-1">noun</p></h2>
 
             <p className="text-black mt-8">
               Description of salmonella
