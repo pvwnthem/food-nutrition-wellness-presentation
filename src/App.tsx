@@ -74,14 +74,14 @@ function HomePage() {
             <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
 
             <p className="text-black mt-8 text-xl">
-            There are several ways in which Salmonella can be contracted:
+            Salmonella has several common symptoms such as:
             <ul className="list-disc ml-6 mb-2">
-              <li>Through foodborne illness</li>
-              <li>Infected animals</li>
-              <li>Contaminated water sources</li>
+              <li>Fever</li>
+              <li>Abdominal Cramps</li>
+              <li>Nausea</li>
+              <li>Vomiting</li>
             </ul>
-              Foodborne illness is the most common way that people contract Salmonella. This can happen when food is not cooked to the appropriate temperature or when cross-contamination occurs in the kitchen. Contact with infected animals, such as reptiles and poultry, can also lead to Salmonella infection. Finally, contaminated water sources can also be a source of Salmonella infection.
-            </p>
+            While most people recover from Salmonella without treatment, it is important to seek medical attention if symptoms persist or worsen. This is especially true for individuals with weakened immune systems, such as children, elderly adults, and those with chronic illnesses.            </p>
           </div>
         </div>
       </div>
