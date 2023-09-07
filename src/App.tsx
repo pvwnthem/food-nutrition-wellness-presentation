@@ -27,7 +27,7 @@ function HomePage() {
           </div>
           
           <div className="mt-8">
-            <a href="/learn-more" className="text-lg font-semibold underline">Learn More About Salmonella</a>
+            <a href="#what-is-salmonellas" className="text-lg font-semibold underline">Learn More About Salmonella</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ function HomePage() {
 
             <p className="text-black mt-8 text-xl">
             There are several ways in which Salmonella can be contracted:
-            <ul className="list-disc ml-6 mb-2">
+            <ul className="list-disc  marker:text-blue-600 ml-6 mb-2">
               <li>Through foodborne illness</li>
               <li>Infected animals</li>
               <li>Contaminated water sources</li>
@@ -75,7 +75,7 @@ function HomePage() {
 
             <p className="text-black mt-8 text-xl">
             Salmonella has several common symptoms such as:
-            <ul className="list-disc ml-6 mb-2">
+            <ul className="list-disc  marker:text-blue-700 ml-6 mb-2">
               <li>Fever</li>
               <li>Abdominal Cramps</li>
               <li>Nausea</li>
