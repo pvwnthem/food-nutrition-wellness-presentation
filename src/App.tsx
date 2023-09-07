@@ -1,3 +1,5 @@
+import {useRef} from "react"
+
 import SalmonellaImage from "./assets/Salmonella-typhimurium.webp"
 import SalmonellaImage2 from "./assets/Salmonella-typhimurium-Unlike-its-close-relative-Escherichia-coli-Salmonella-enterica.png"
 import SalmonellaImage3 from "./assets/Scanning-electron-micrograph-of-the-Salmonella-used-in-the-inoculation-of-the-broiler.png"
@@ -6,6 +8,12 @@ import SalmonellaImage5 from "./assets/images.jpg"
 import SalmonellaImage6 from "./assets/Scanning-electron-micrograph-showing-a-pure-culture-of-bacteria-capable-of-utilizing.png"
 
 function HomePage() {
+
+  const box1Ref = useRef<any>(null);
+
+  const scrollToBox = () => {
+    box1Ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <>
       <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-500 to-blue-700 text-white">
@@ -13,7 +21,7 @@ function HomePage() {
           <h1 className="text-6xl font-extrabold mb-4">Salmonella</h1>
           <p className="text-2xl mb-8">Learn all about Salmonella and how to stay safe.</p>
           
-          <div className="flex items-center justify-between">
+          <div onClick={scrollToBox} className="flex items-center justify-between">
             <div className="bg-white px-3 py-5 rounded-lg hover:shadow-lg hover:drop-shadow-md transition-transform duration-300 transform scale-95 hover:scale-105">
               <h2 className="text-3xl text-blue-500 font-semibold mb-4">What is Salmonella?</h2>
               <p className="text-lg text-gray-800">
@@ -21,7 +29,7 @@ function HomePage() {
               </p>
             </div>
             
-            <div className="bg-white px-3 py-5 rounded-lg hover:shadow-lg hover:drop-shadow-md transition-transform duration-300 transform scale-95 hover:scale-105">
+            <div onClick={scrollToBox} className="bg-white px-3 py-5 rounded-lg hover:shadow-lg hover:drop-shadow-md transition-transform duration-300 transform scale-95 hover:scale-105">
               <h2 className="text-3xl text-blue-500 font-semibold mb-4">Staying Safe</h2>
               <p className="text-lg text-gray-800">
               Wash your hands, cook food thoroughly, and avoid cross-contamination to reduce the risk of Salmonella infection.
@@ -34,7 +42,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div id="what-is-salmonella" className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-500 text-white">
+      <div ref={box1Ref} id="what-is-salmonella" className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-500 text-white">
         <div className="flex w-full h-screen px-18 py-8 space-x-6">
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">What is Salmonella <p className="text-blue-600 ml-1">?</p></h1>
@@ -104,7 +112,7 @@ It is important to seek medical attention if you suspect you have contracted Sal
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-600 to-blue-700 text-white">
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-600 text-white">
         <div className="flex w-full h-screen px-18 py-8 space-x-6">
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">Prevention of Salmonella</h1>
