@@ -1,6 +1,8 @@
 import SalmonellaImage from "./assets/Salmonella-typhimurium.webp"
 import SalmonellaImage2 from "./assets/Salmonella-typhimurium-Unlike-its-close-relative-Escherichia-coli-Salmonella-enterica.png"
 import SalmonellaImage3 from "./assets/Scanning-electron-micrograph-of-the-Salmonella-used-in-the-inoculation-of-the-broiler.png"
+import SalmonellaImage4 from "./assets/d41586-021-01749-7_19289428.jpg"
+import SalmonellaImage5 from "./assets/images.jpg"
 
 function HomePage() {
   return (
@@ -88,7 +90,7 @@ function HomePage() {
       </div>
       <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-600 to-blue-700 text-white">
         <div className="flex w-full h-screen px-18 py-8 space-x-6">
-          <img src={SalmonellaImage3} className="rounded-lg"></img>
+          <img src={SalmonellaImage4} className="rounded-lg"></img>
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">Treatment Of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
@@ -99,6 +101,22 @@ function HomePage() {
 It is important to seek medical attention if you suspect you have contracted Salmonella, as untreated infections can lead to serious complications such as bloodstream infections and meningitis.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-600 to-blue-700 text-white">
+        <div className="flex w-full h-screen px-18 py-8 space-x-6">
+          <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Prevention of Salmonella</h1>
+            <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
+
+            <p className="text-black mt-8 text-2xl">
+            One of the most effective ways to prevent Salmonella is to practice good hygiene. This includes washing your hands thoroughly with soap and water before and after handling food, using the bathroom, or coming into contact with animals.
+It's also important to cook food to the appropriate temperature to kill any potential bacteria. Use a food thermometer to ensure that meat, poultry, and eggs are cooked to the proper internal temperature. And be sure to avoid cross-contamination by keeping raw meat separate from other foods and using different cutting boards and utensils for each.
+
+            </p>
+          </div>
+          <img src={SalmonellaImage5} className="rounded-lg"></img>
         </div>
       </div>
     </>
