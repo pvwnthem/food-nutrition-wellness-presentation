@@ -66,8 +66,7 @@ function HomePage() {
         </div>
       </div>
       <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-700 to-blue-600 text-white">
-        <div className="flex flex-row-reverse w-full h-screen px-18 py-8 space-x-6">
-          <img src={SalmonellaImage3} className="rounded-lg"></img>
+        <div className="flex w-full h-screen px-18 py-8 space-x-6">
           <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
             <h1 className="text-black font-semibold text-4xl mt-2 flex">Symptoms of Salmonella</h1>
             <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
@@ -82,6 +81,23 @@ function HomePage() {
               <li>Vomiting</li>
             </ul>
             While most people recover from Salmonella without treatment, it is important to seek medical attention if symptoms persist or worsen. This is especially true for individuals with weakened immune systems, such as children, elderly adults, and those with chronic illnesses.            </p>
+          </div>
+          <img src={SalmonellaImage3} className="rounded-lg"></img>
+
+        </div>
+      </div>
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-600 to-blue-700 text-white">
+        <div className="flex w-full h-screen px-18 py-8 space-x-6">
+          <img src={SalmonellaImage3} className="rounded-lg"></img>
+          <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Treatment Of Salmonella</h1>
+            <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
+
+            <p className="text-black mt-8 text-2xl">
+            The most common treatment for Salmonella is the use of antibiotics, which can help to reduce the severity and duration of symptoms. In addition to antibiotics, patients may also require rehydration therapy, as diarrhea and vomiting can lead to dehydration.
+It is important to seek medical attention if you suspect you have contracted Salmonella, as untreated infections can lead to serious complications such as bloodstream infections and meningitis.
+            </p>
           </div>
         </div>
       </div>
