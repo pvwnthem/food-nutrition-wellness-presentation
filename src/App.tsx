@@ -3,6 +3,7 @@ import SalmonellaImage2 from "./assets/Salmonella-typhimurium-Unlike-its-close-r
 import SalmonellaImage3 from "./assets/Scanning-electron-micrograph-of-the-Salmonella-used-in-the-inoculation-of-the-broiler.png"
 import SalmonellaImage4 from "./assets/d41586-021-01749-7_19289428.jpg"
 import SalmonellaImage5 from "./assets/images.jpg"
+import SalmonellaImage6 from "./assets/Scanning-electron-micrograph-showing-a-pure-culture-of-bacteria-capable-of-utilizing.png"
 
 function HomePage() {
   return (
@@ -117,6 +118,23 @@ It's also important to cook food to the appropriate temperature to kill any pote
             </p>
           </div>
           <img src={SalmonellaImage5} className="rounded-lg"></img>
+        </div>
+      </div>
+      <div className="min-h-screen flex px-4 items-center justify-center bg-gradient-to-b from-blue-600 to-blue-700 text-white">
+        <div className="flex w-full h-screen px-18 py-8 space-x-6">
+        <img src={SalmonellaImage6} className="rounded-lg"></img>
+
+          <div className='w-1/2 h-full p-6 bg-white rounded-lg'>
+            <h1 className="text-black font-semibold text-4xl mt-2 flex">Statistics</h1>
+            <h2 className="text-black mt-2 font-semibold">Salmonella</h2>
+            <h2 className="flex text-black"><p className="text-gray-600 flex">sal<p className="text-blue-600 font-semibold text-xl">·</p>muh<p className="text-blue-600 font-semibold text-xl">·</p>neh<p className="text-blue-600 font-semibold text-xl">·</p>lah</p><p className="text-blue-600 ml-1">noun</p></h2>
+
+            <p className="text-black mt-8 text-2xl">
+          It is estimated that Salmonella causes about 1.35 million illnesses, 26,500 hospitalizations, and 420 deaths in the United States each year.
+           The mortality rate associated with Salmonella infection is relatively low, but severe cases may require treatment.
+         It is important to practice proper food safety measures and use antibiotics appropriately to prevent the spread of antibiotic-resistant strains of Salmonella.
+            </p>
+          </div>
         </div>
       </div>
     </>
